@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/469107fedc.js" crossorigin="anonymous"></script>
+<body>
+    <nav>
+        <h3>NihalSandhu</h3>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Call Us</li>
+            <li>Help</li>
+        </ul>
+
+        <button>Account</button>
+        <i class="fa-solid fa-bars hamburger"></i>
+    </nav>
+</body>
+<script>
+    let menu = document.querySelector(".hamburger")
+ 
+     let ul = document.querySelector("ul")
+
+     menu.addEventListener("click",function(e){
+          
+        ul.style.display = "block"
+         
+     })
+     
+</script>
+</html>

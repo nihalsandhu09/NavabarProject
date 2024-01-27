@@ -1,0 +1,48 @@
+nav  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.hamburger{
+    display: none;
+}
+
+@media only screen and (max-width: 460px) {
+    .hamburger{
+        
+        display: block;
+    }
+    nav  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    ul{
+        display: none;
+    }
+    li{
+        list-style: none;
+    }
+    button{
+      display: none;
+    }
+    
+}
